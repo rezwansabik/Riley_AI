@@ -1,9 +1,3 @@
-"""JARVIS chatbox - FREE, runs locally with Ollama. Run: python jarvis_free.py
-Setup: 1) install Ollama from ollama.com
-       2) in terminal: ollama pull llama3.2
-       3) pip install openai
-Optional: pip install pyttsx3 (voice)
-"""
 import os, threading, tkinter as tk
 from tkinter import scrolledtext
 from openai import OpenAI
